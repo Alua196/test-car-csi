@@ -1,0 +1,33 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+  
+  table tbody tr:hover {
+    background-color: #f9f9f9;
+  }
+
+.prod__sec {
+    margin: 5%;
+    justify-content: center;
+    display: flex;
+}
+
+.quantity-counter {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+  
