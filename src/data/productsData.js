@@ -39,10 +39,27 @@ const productsData = [
         price: 12000,
         quantity: 1,
         subProducts: [
-            { id: 2.1, prodName: 'Поршни', price: 10000, quantity: 1 },
-            { id: 2.2, prodName: 'Кольца', price: 2000, quantity: 1 },
-            { id: 2.3, prodName: 'Sub Product 5', price: 2, quantity: 1 },
+            {
+                id: 2.1, 
+                prodName: 'Поршни', 
+                price: 10000,
+                quantity: 1
+            },
+            {
+                id: 2.2, 
+                prodName: 'Кольца', 
+                price: 2000,
+                quantity: 1
+            },
+            {
+                id: 2.3, 
+                prodName: 'Sub Product 5', 
+                price: 2,
+                quantity: 1
+            },
         ],
     },
     // Add more products with sub-products as needed
 ];
+
+export default productsData;
